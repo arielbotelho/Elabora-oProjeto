@@ -1,0 +1,81 @@
+#total{
+    width: 960px;
+    height: auto;
+    margin: auto;
+}
+
+#topo{
+    width: 960px;
+    height: auto;
+    float: left;
+    background-color: brown;
+
+}
+
+#logo{
+    width: 200px;
+    height: 60px;
+    margin: 10px auto;
+    background-color: white;
+}
+
+#banner{
+    width: 960px;
+    height: 300px;
+    float: left;
+    background-image: url(../IMAGEM/banner.jpg)
+}
+
+#menu{
+    width: 210px;
+    height: 265px;
+    float: left;
+    background-image: url(../IMAGEM/menu.png);
+    padding-top: 35px;
+}
+
+#menu a{
+    color:aliceblue;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    /*padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;*/
+    padding: 2px 0px 2px 8px;
+}
+
+#menu a:hover{ /*EVENTO comportamento do mouse em cima do menu*/
+    background-image: url(../IMAGEM/menu.png);
+}
+
+#conteudo{
+    width: 960px;
+    height: auto;
+    float: left;
+}
+
+.box{  /*CLASSE*/
+    width: 120px;
+    height: 90px;
+    left: 90px;
+    float: left;
+    border: solid 10px #B28500;
+    margin: 0px 10px 20px 10px;
+}
+
+body{
+    background-image: url("../IMAGEM/background.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: bottom center;
+}
+
+h1{
+    background-image: url("../IMAGEM/gradiente.png");
+    color: white;
+    padding: 2px 10px;
+    margin: 20px 0px;
+}
